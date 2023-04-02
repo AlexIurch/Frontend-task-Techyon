@@ -1,0 +1,29 @@
+.main-block{
+    grid-area: m;
+    }
+
+.photo-block{
+    background-image: url(https://dtek.com/content/announces/dji_0327_s182_t3012_i3244.jpg);
+    background-size: cover; /* Makes the background image fit the container without distorting it */
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    min-height: 700px;
+}    
+    
+.main-header{
+    text-transform: uppercase;
+    color: azure;
+    font-size: 4.5rem;
+    font-weight: 600;
+    padding: 1.4em;
+} 
+
+.main-par{
+    color: azure;
+    width: 30%;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding-top: 1.7em;
+    margin-left: auto;
+}

@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Navigation from './components/navbar/Navbar'
+import ViewDiagrams from './components/customer/Diagrams';
+import ElectricityUsage from './components/customer/ElectricityUsage'
+import Main from './components/main/Main';
+
+import { Routes, Route} from 'react-router-dom'
+// import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-wrap">
+      <Navigation/>
+      {/* <Router> */}
+        <Routes>
+          <Route exact path = "/" element={<Main />}> </Route>
+          <Route exact path = "/meter1" element={<ViewDiagrams id= "2AE445BF"/>}> </Route>
+          <Route exact path = "/meter2" element={<ViewDiagrams id= "2AE446FF"/>}> </Route>
+          <Route exact path = "/usage" element={< ElectricityUsage />}> </Route>
+        </Routes>
+      {/* </Router> */}
     </div>
   );
 }
