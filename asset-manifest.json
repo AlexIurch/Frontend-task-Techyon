@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Frontend-task-Techyon/static/css/main.3cb15c75.css",
+    "main.css": "/Frontend-task-Techyon/static/css/main.8c2ecdd3.css",
     "main.js": "/Frontend-task-Techyon/static/js/main.0f0c4fef.js",
     "static/js/787.c1112931.chunk.js": "/Frontend-task-Techyon/static/js/787.c1112931.chunk.js",
     "static/media/Electro123.png": "/Frontend-task-Techyon/static/media/Electro123.83c0a510655b69e81ea2.png",
     "index.html": "/Frontend-task-Techyon/index.html",
-    "main.3cb15c75.css.map": "/Frontend-task-Techyon/static/css/main.3cb15c75.css.map",
+    "main.8c2ecdd3.css.map": "/Frontend-task-Techyon/static/css/main.8c2ecdd3.css.map",
     "main.0f0c4fef.js.map": "/Frontend-task-Techyon/static/js/main.0f0c4fef.js.map",
     "787.c1112931.chunk.js.map": "/Frontend-task-Techyon/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cb15c75.css",
+    "static/css/main.8c2ecdd3.css",
     "static/js/main.0f0c4fef.js"
   ]
 }
