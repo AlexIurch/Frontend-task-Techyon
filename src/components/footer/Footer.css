@@ -1,0 +1,23 @@
+.footerBlock{
+width: 100%;
+    background-color: #1b1a1a;
+    grid-area: f;
+    height: 60px;
+}
+
+.footer-par{
+    color: aliceblue;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+/* footer media query */
+  @media only screen and (max-width: 768px) {
+    .footer ul {
+      flex-wrap: wrap;
+    }
+    
+    .footer ul li {
+      margin: 5px;
+    }
+  }

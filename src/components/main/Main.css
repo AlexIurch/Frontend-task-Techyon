@@ -1,29 +1,84 @@
-.main-block{
-    grid-area: m;
-    }
+/* main block */
+
+.main-block{   
+    grid-area: m;   
+    background: #faf7fa;
+    min-height: 1150px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
 
 .photo-block{
-    background-image: url(https://dtek.com/content/announces/dji_0327_s182_t3012_i3244.jpg);
-    background-size: cover; /* Makes the background image fit the container without distorting it */
-    background-repeat: no-repeat;
+    background-image: url(./photo/photo_1732.png);
+    background-size: cover;
     background-position: center;
-    max-width: 100%;
-    min-height: 700px;
-}    
+    min-height: 1130px;  
+ }    
     
+
 .main-header{
     text-transform: uppercase;
     color: azure;
     font-size: 4.5rem;
     font-weight: 600;
     padding: 1.4em;
-} 
+    padding-top: 1em;
+}    
 
-.main-par{
+ .main-par{
     color: azure;
-    width: 30%;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
+    padding-left: 25em;
+    padding-right: 0.5em;
+    margin-top: 0px;
+    margin-bottom: 1rem;
     padding-top: 1.7em;
     margin-left: auto;
-}
+} 
+
+/* Media queries for screens with a maximum width of 450px */
+@media only screen and (max-width: 450px) {
+       
+    .main-par {
+      padding-left: 14.5em;
+      padding-top: 0.7em;
+      text-align: left;
+      font-size: 0.8rem;
+
+    }
+    .main-block{   
+        min-height: 760px;
+    }
+    
+    .photo-block{ 
+        min-height: 760px;  
+     } 
+
+
+     .main-header{      
+        font-size: 1.8rem;
+        padding: 0.8em;
+        padding-top: 1.5em;
+    }   
+  }
+  
+  /* Media queries for screens with a width between 450px and 990px */
+  @media only screen and (min-width: 450px) and (max-width: 990px) {
+    .main-par {
+        padding-left: 22em;
+        padding-top: 8.3em;
+        text-align: left;
+      font-size: 1.1rem;
+  
+      }
+      .main-block{   
+        min-height: 1100px;
+    }
+       .main-header{      
+          font-size: 2.3rem;
+          padding: 1em;
+          padding-top: 3em;
+      }  
+  }

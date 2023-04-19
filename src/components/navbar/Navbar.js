@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Navigation() {
+  
   return (
     <div className='nav-block '>
     <p className="aviable" color='white
@@ -20,6 +21,9 @@ function Navigation() {
           </Nav>
           <Nav className='px-3'>
             <Nav.Link as = {Link} to="/">Home</Nav.Link>
+            <Nav.Link as = {Link} to="/news">News</Nav.Link>
+            {/* <Nav.Link as = {Link} to="/"></Nav.Link> */}
+
             <NavDropdown title="Personal page" id="basic-nav-dropdown">
               <NavDropdown.Item as = {Link} to="/meter1">Meter1</NavDropdown.Item>
               <NavDropdown.Item as = {Link} to="/meter2">Meter2</NavDropdown.Item>

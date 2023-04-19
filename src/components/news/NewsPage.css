@@ -1,0 +1,117 @@
+/* Style the caption block */
+.carousel-caption {
+  background-color: rgba(167, 187, 242, 0.753);
+  padding: 2em;
+  padding-bottom: 14em;
+  width: 70%;
+  height: 60%;
+  bottom: 32%;
+  margin: 0 auto;
+}
+
+/* Style the caption text */
+.carousel-caption h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #292929;
+}
+
+.carousel-caption p {
+  padding-top: 1em;
+  font-size: 1.2rem;
+  margin-bottom: 0.5em;
+  text-align: justify;
+  color: #292929;
+}
+
+/* Style the carousel control */
+.carousel-control-next, .carousel-control-prev {
+  width: 10%;
+  bottom: 22%;
+}  
+
+/*  the image of the Carousel component */
+.carousel-item img {
+  margin-top: 0em;
+  min-height: 1150px;
+  object-fit: cover;
+}
+
+/* Style the indicator icons */
+.carousel-indicators li {
+  background-color: #007bff;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  transition: all 0.3s;
+}
+
+.carousel-indicators li.active {
+  width: 12px;
+  height: 12px;
+}
+
+
+/* media query   for screen under 450px*/
+@media only screen and (max-width: 450px){
+  .carousel-caption {
+    padding: 2em;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    bottom: 1%;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
+  .carousel-caption h3 {
+    padding-top: 0em;
+    font-size: 1rem;
+  }
+
+  .carousel-caption {
+    margin-bottom: 5rem;
+  }
+
+  .carousel-item img {
+    min-height: 1200px;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 10%;
+  }  
+}
+
+ /* Media queries for screens with a width between 450px and 990px */
+ @media only screen and (min-width: 450px) and (max-width: 990px) {
+  .carousel-caption {
+    padding: 2em;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    bottom: 0%;
+  }
+
+  .carousel-caption p {
+    font-size: 1.4rem;
+  }
+
+  .carousel-caption h3 {
+    padding-top: 0em;
+    font-size: 2rem;
+  }
+
+  .carousel-caption {
+    margin-bottom: 5rem;
+  }
+
+  .carousel-item img {
+    min-height: 1100px;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 10%;
+  }  
+ }
