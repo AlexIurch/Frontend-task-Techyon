@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/Frontend-task-Techyon/static/css/main.f7942683.css",
-    "main.js": "/Frontend-task-Techyon/static/js/main.4db5bf7a.js",
+    "main.css": "/Frontend-task-Techyon/static/css/main.08952e46.css",
+    "main.js": "/Frontend-task-Techyon/static/js/main.334c1b57.js",
     "static/js/787.c1112931.chunk.js": "/Frontend-task-Techyon/static/js/787.c1112931.chunk.js",
+    "static/media/photo_1734.png": "/Frontend-task-Techyon/static/media/photo_1734.5a7990d0620408b68b04.png",
+    "static/media/photo_1721.png": "/Frontend-task-Techyon/static/media/photo_1721.6293a24c34bc783bedeb.png",
     "static/media/photo_1732.png": "/Frontend-task-Techyon/static/media/photo_1732.5ac231bb67ab5445af10.png",
     "index.html": "/Frontend-task-Techyon/index.html",
-    "main.f7942683.css.map": "/Frontend-task-Techyon/static/css/main.f7942683.css.map",
-    "main.4db5bf7a.js.map": "/Frontend-task-Techyon/static/js/main.4db5bf7a.js.map",
+    "main.08952e46.css.map": "/Frontend-task-Techyon/static/css/main.08952e46.css.map",
+    "main.334c1b57.js.map": "/Frontend-task-Techyon/static/js/main.334c1b57.js.map",
     "787.c1112931.chunk.js.map": "/Frontend-task-Techyon/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7942683.css",
-    "static/js/main.4db5bf7a.js"
+    "static/css/main.08952e46.css",
+    "static/js/main.334c1b57.js"
   ]
 }
